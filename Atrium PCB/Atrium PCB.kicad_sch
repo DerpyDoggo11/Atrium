@@ -5243,6 +5243,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:SK6805-EC15"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6805-EC15"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.5-W1.5-BL"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2890035.pdf"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "OPSCO(欧思科)"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SK6805-EC15"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2890035"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Light Emitting Diodes (LED)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SK6805-EC15_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:SK6812MINI-E_C5149201"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8706,12 +8907,6 @@
 		(uuid "6dd74e03-2db3-4fca-927f-c692ecb3c934")
 	)
 	(junction
-		(at 430.53 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "770e37d3-a861-4435-abc9-1ee6b3c15667")
-	)
-	(junction
 		(at 180.34 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8722,12 +8917,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81489d56-ca92-4dbb-9ab7-d0142947cba5")
-	)
-	(junction
-		(at 417.83 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82ce3f84-e54e-484a-b4eb-8f6c1995dab9")
 	)
 	(junction
 		(at 283.21 88.9)
@@ -9256,16 +9445,6 @@
 			(type default)
 		)
 		(uuid "04473ce8-ab25-4116-9c57-e16c7a52c753")
-	)
-	(wire
-		(pts
-			(xy 430.53 81.28) (xy 430.53 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b7bf13-57c5-46c2-a7c6-8ac7efab4cc7")
 	)
 	(wire
 		(pts
@@ -9856,16 +10035,6 @@
 			(type default)
 		)
 		(uuid "1b9448ec-6105-40fc-8c73-fb0ed51cb797")
-	)
-	(wire
-		(pts
-			(xy 417.83 106.68) (xy 440.69 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c01d89b-f903-47ff-90c6-05684cc44b8e")
 	)
 	(wire
 		(pts
@@ -27543,7 +27712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 344.17 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -27702,7 +27871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 488.95 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -29320,7 +29489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 488.95 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -29422,7 +29591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 322.58 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -29504,7 +29673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 370.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -31799,7 +31968,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 370.84 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -33135,7 +33304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 370.84 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -33393,7 +33562,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 255.27 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -33948,7 +34117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 344.17 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -34895,7 +35064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 327.66 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -36015,7 +36184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 255.27 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -37556,7 +37725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 417.83 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -38508,7 +38677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 435.61 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -38742,7 +38911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 322.58 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -39574,7 +39743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 283.21 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -39798,7 +39967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 307.34 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -40745,7 +40914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 260.35 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -43339,7 +43508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 435.61 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -46125,7 +46294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 302.26 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -46795,7 +46964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 322.58 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -47232,7 +47401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 464.82 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -47659,7 +47828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 417.83 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -48146,7 +48315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 412.75 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -48871,7 +49040,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 435.61 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -50330,7 +50499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 459.74 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -51204,7 +51373,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 283.21 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -51308,7 +51477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 511.81 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -51650,7 +51819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 388.62 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -54597,7 +54766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 278.13 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -55428,7 +55597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 327.66 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -55932,7 +56101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 511.81 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -56111,7 +56280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 459.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -57181,7 +57350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 349.25 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -58698,7 +58867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 459.74 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -59331,7 +59500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 388.62 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -59968,7 +60137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 370.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -61900,7 +62069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 483.87 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -62061,7 +62230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 365.76 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -63994,7 +64163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 388.62 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -64076,7 +64245,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 349.25 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -65211,7 +65380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 393.7 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -67841,7 +68010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 393.7 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -68725,7 +68894,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 393.7 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -69543,7 +69712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 327.66 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -70247,86 +70416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 435.61 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e13e45c-b174-42a5-a3a5-f78ddbbd2ff8")
-		(property "Reference" "SW49"
-			(at 435.61 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 435.61 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 435.61 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 435.61 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 435.61 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6a55ecbf-fc3d-4f0b-bfd3-91814a035ea7")
-		)
-		(pin "1"
-			(uuid "e904ae1b-63bd-4816-92fe-ff7d390c6250")
-		)
-		(instances
-			(project "Atrium PCB"
-				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
-					(reference "SW49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 148.59 407.67 90)
 		(unit 1)
@@ -70520,7 +70609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 483.87 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -71580,7 +71669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 365.76 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -71899,7 +71988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 511.81 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -74362,7 +74451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 365.76 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -75267,7 +75356,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 412.75 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -76020,7 +76109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 344.17 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -77373,7 +77462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 278.13 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -79347,7 +79436,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 412.75 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -80425,7 +80514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 488.95 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -80527,7 +80616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_2.00u"
 			(at 365.76 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -82709,110 +82798,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 440.69 102.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3a77869-40bf-4944-9cab-03b86873f223")
-		(property "Reference" "D47"
-			(at 443.23 101.5999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 443.23 104.1399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 440.69 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 440.69 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 440.69 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 440.69 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 440.69 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a98211cb-ec6c-4e9b-8da9-2210c2e97d7c")
-		)
-		(pin "1"
-			(uuid "5d1a76e3-a5e5-419c-bedd-238e6d093c57")
-		)
-		(instances
-			(project "Atrium PCB"
-				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
-					(reference "D47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 462.28 300.99 90)
 		(unit 1)
@@ -83004,7 +82989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 307.34 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -85320,7 +85305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 440.69 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -86476,7 +86461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 440.69 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -87667,7 +87652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 506.73 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -88023,7 +88008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 506.73 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -90678,7 +90663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 302.26 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -91275,7 +91260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 260.35 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -91456,7 +91441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 283.21 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -92817,7 +92802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 464.82 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -94170,7 +94155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 327.66 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -95098,7 +95083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 302.26 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -95655,7 +95640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 393.7 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -96867,7 +96852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 464.82 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -98668,7 +98653,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 417.83 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -98770,7 +98755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 255.27 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -99056,6 +99041,125 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "C197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK6805-EC15")
+		(at -16.51 264.16 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb24dbd1-9f57-4017-971b-89b4f31f0b1d")
+		(property "Reference" "LED2"
+			(at -16.51 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC15"
+			(at -16.51 257.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.5-W1.5-BL"
+			(at -16.51 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2890035.pdf"
+			(at -16.51 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at -16.51 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "OPSCO(欧思科)"
+			(at -16.51 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6805-EC15"
+			(at -16.51 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2890035"
+			(at -16.51 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbf75939-47e6-4bcd-8bf3-384d7d3aa1bf")
+		)
+		(pin "2"
+			(uuid "a8e26b8c-0b3e-4374-a41a-05d94b929e93")
+		)
+		(pin "3"
+			(uuid "25f28c28-6403-457d-9557-a48465f6613a")
+		)
+		(pin "4"
+			(uuid "12f71e59-dfad-4c23-9ae1-6878078e58ab")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -100555,7 +100659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 440.69 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -101018,7 +101122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 506.73 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -101378,7 +101482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 417.83 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -101993,7 +102097,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 412.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -102073,7 +102177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 388.62 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -102232,7 +102336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 349.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -102334,7 +102438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 344.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -103683,7 +103787,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -104016,7 +104120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 322.58 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -104490,7 +104594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 278.13 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -104570,7 +104674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 			(at 483.87 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -105084,7 +105188,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 349.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -105390,7 +105494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 307.34 52.07 0)
 			(hide yes)
 			(show_name no)

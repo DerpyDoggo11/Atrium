@@ -632,7 +632,7 @@
         "uuid": "ee0455fb-9ea5-4694-a839-3916064005e2"
       }
     ],
-    "used_designators": "",
+    "used_designators": "LED2",
     "variants": []
   },
   "sheets": [
