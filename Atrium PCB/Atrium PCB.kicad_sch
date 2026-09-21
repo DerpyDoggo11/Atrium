@@ -10466,6 +10466,12 @@
 		(uuid "639cecdb-2267-45aa-90d8-0d1ac6c3dbee")
 	)
 	(junction
+		(at 283.21 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "696bec00-2ab8-4e5b-9251-8924817a9458")
+	)
+	(junction
 		(at 121.92 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10494,6 +10500,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e446ad5-787d-41f6-8553-75c9bba8deb3")
+	)
+	(junction
+		(at 283.21 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e71f011-1197-4b42-b175-f9641b401bdf")
 	)
 	(junction
 		(at 575.31 102.87)
@@ -18207,6 +18219,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 160.02) (xy 290.83 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f2450e-f2cd-46ce-8560-72a2b6a358d7")
+	)
+	(wire
+		(pts
 			(xy 360.68 261.62) (xy 360.68 556.26)
 		)
 		(stroke
@@ -25584,6 +25606,16 @@
 			(type default)
 		)
 		(uuid "b420353f-619d-4fec-ac51-af3d85a8d197")
+	)
+	(wire
+		(pts
+			(xy 283.21 167.64) (xy 290.83 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4353049-c96c-433e-bf91-9b8cdc464790")
 	)
 	(wire
 		(pts
@@ -38029,28 +38061,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 294.64 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "541157d4-4f1d-4aec-b024-a85cfb15365e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "+5V_LED"
 		(shape input)
 		(at 205.74 822.96 180)
@@ -42265,28 +42275,6 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 322.58 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85429617-5e17-487c-bc6d-ac45727a0a97")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.58 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "+5V_LED"
 		(shape input)
 		(at 594.36 354.33 180)
@@ -42917,28 +42905,6 @@
 		(uuid "8e4709c3-d344-4018-b8a5-10252326c468")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 635 539.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 294.64 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e9877fc-ecaf-4805-afff-cca65d61878b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45161,28 +45127,6 @@
 		(uuid "a7250a3f-31c5-4056-87b4-cac1019d8fef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.93 505.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 294.64 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a73f2ad3-bf59-4a1f-909c-e8befd29831f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50385,28 +50329,6 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 294.64 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "decd1b26-7676-4509-bb58-816be348716b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "+5V_LED"
 		(shape input)
 		(at 288.29 515.62 180)
@@ -52901,28 +52823,6 @@
 		(uuid "feb9cfaa-af64-46d0-b916-bdaf876b313e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 462.28 274.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 294.64 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff4c8d91-d4f8-4de2-a1d7-832d70a52d80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.64 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -65747,6 +65647,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 322.58 156.21 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10bc5749-8b7f-4ad8-a9f8-be91dc57903f")
+		(property "Reference" "#PWR01201"
+			(at 318.77 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 328.676 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 322.58 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfcec52e-c8b8-4321-9275-fdea3c7afb67")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 463.55 858.52 90)
 		(unit 1)
@@ -65822,6 +65800,83 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "C492")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 143.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10ee7718-6ea1-40f0-bc2d-23be4d1b0923")
+		(property "Reference" "#PWR01198"
+			(at 288.29 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.814 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa4b480a-da74-4c1b-bbbb-12a5aa7e8947")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01198")
 					(unit 1)
 				)
 			)
@@ -67621,6 +67676,83 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 960.12 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12a31636-88b7-4faf-827c-a92da64b3d96")
+		(property "Reference" "#PWR01205"
+			(at 963.93 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 954.278 32.004 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 960.12 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 960.12 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 960.12 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96db224c-103c-440e-be45-f23c359e127d")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01205")
 					(unit 1)
 				)
 			)
@@ -70340,7 +70472,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 850.9 39.37 90)
+		(at 850.9 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -70350,7 +70482,7 @@
 		(dnp no)
 		(uuid "14bf9a58-7d41-4396-8ba2-a56c0e6e5427")
 		(property "Reference" "#PWR0430"
-			(at 854.71 39.37 0)
+			(at 854.71 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -70361,7 +70493,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 845.058 38.354 90)
+			(at 845.058 32.004 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -70371,7 +70503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 850.9 39.37 0)
+			(at 850.9 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -70382,7 +70514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 850.9 39.37 0)
+			(at 850.9 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -70393,7 +70525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 850.9 39.37 0)
+			(at 850.9 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100017,7 +100149,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 854.71 33.02 90)
+		(at 854.71 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -100027,7 +100159,7 @@
 		(dnp no)
 		(uuid "3aef2391-47b6-4d51-ae84-649e14f17d5f")
 		(property "Reference" "C414"
-			(at 852.424 30.48 90)
+			(at 852.424 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -100038,7 +100170,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 860.806 30.48 90)
+			(at 860.806 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -100049,7 +100181,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 854.71 33.02 0)
+			(at 854.71 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100060,7 +100192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 854.71 33.02 0)
+			(at 854.71 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -100070,7 +100202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 854.71 33.02 0)
+			(at 854.71 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -105103,6 +105235,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 963.93 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4396478c-2569-422b-84d4-9484d7f6446f")
+		(property "Reference" "C548"
+			(at 961.644 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 970.026 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 963.93 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 963.93 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 963.93 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09a6f56f-31be-436c-bf15-44ec3f1b1bd3")
+		)
+		(pin "2"
+			(uuid "44a783be-7bb8-4466-869d-ef5ec86f7d93")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "C548")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SK6805-EC15")
 		(at 495.3 872.49 0)
 		(unit 1)
@@ -109763,6 +109974,84 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "#PWR0689")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 283.21 160.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49062e42-a21d-4c6a-8e3d-3fa7542aa3ad")
+		(property "Reference" "#PWR0227"
+			(at 283.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 283.21 155.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 283.21 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eab9d6a1-e20c-4dad-9175-dd0b530857ff")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -115741,6 +116030,83 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "C440")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 967.74 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51c913d8-844c-4f59-88e3-77c77ec368ca")
+		(property "Reference" "#PWR01207"
+			(at 974.09 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 972.312 24.638 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 967.74 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 967.74 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 967.74 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbb0d145-7f7c-4ec0-ba20-1c3e1ac8fa19")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01207")
 					(unit 1)
 				)
 			)
@@ -137899,7 +138265,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 854.71 26.67 90)
+		(at 854.71 20.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -137909,7 +138275,7 @@
 		(dnp no)
 		(uuid "6fbef0a2-e079-422b-9538-8980ec7afb8f")
 		(property "Reference" "C413"
-			(at 852.932 24.13 90)
+			(at 852.932 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -137920,7 +138286,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 861.06 23.876 90)
+			(at 861.06 17.526 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -137931,7 +138297,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 854.71 26.67 0)
+			(at 854.71 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -137942,7 +138308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 854.71 26.67 0)
+			(at 854.71 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -137952,7 +138318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 854.71 26.67 0)
+			(at 854.71 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -141955,6 +142321,84 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "#PWR0468")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 294.64 151.13 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74210539-651b-4370-8cbe-5031c17e4b2f")
+		(property "Reference" "#PWR01200"
+			(at 298.45 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 288.544 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 294.64 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcce0de6-2525-4428-9a14-b2450a41c5e5")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01200")
 					(unit 1)
 				)
 			)
@@ -153720,6 +154164,85 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 854.71 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8395b534-e6ee-4596-b03f-8dac486b86ea")
+		(property "Reference" "C545"
+			(at 852.932 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 861.06 36.576 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 854.71 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 854.71 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 854.71 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "034ef234-46f3-43cd-8a9b-39f957da5125")
+		)
+		(pin "2"
+			(uuid "f2794991-bd4c-49bc-a48e-e7e40969abca")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "C545")
 					(unit 1)
 				)
 			)
@@ -167366,7 +167889,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 858.52 39.37 90)
+		(at 858.52 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -167376,7 +167899,7 @@
 		(dnp no)
 		(uuid "95168c3e-25f3-42a3-82ee-cd7c9029a3d9")
 		(property "Reference" "#PWR0433"
-			(at 864.87 39.37 0)
+			(at 864.87 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -167387,7 +167910,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 863.092 37.338 90)
+			(at 863.092 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -167397,7 +167920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 858.52 39.37 0)
+			(at 858.52 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -167408,7 +167931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 858.52 39.37 0)
+			(at 858.52 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -167419,7 +167942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 858.52 39.37 0)
+			(at 858.52 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -175352,7 +175875,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 850.9 26.67 90)
+		(at 850.9 20.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -175362,7 +175885,7 @@
 		(dnp no)
 		(uuid "9e658f15-b973-48aa-9500-3c8f420cc0f5")
 		(property "Reference" "#PWR0428"
-			(at 854.71 26.67 0)
+			(at 854.71 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -175373,7 +175896,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 845.312 25.4 90)
+			(at 845.312 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -175383,7 +175906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 850.9 26.67 0)
+			(at 850.9 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -175394,7 +175917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 850.9 26.67 0)
+			(at 850.9 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -175405,7 +175928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 850.9 26.67 0)
+			(at 850.9 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -179453,7 +179976,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 858.52 33.02 90)
+		(at 858.52 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -179463,7 +179986,7 @@
 		(dnp no)
 		(uuid "a3b7396a-7913-49bd-a935-49e7a09dad6b")
 		(property "Reference" "#PWR0432"
-			(at 864.87 33.02 0)
+			(at 864.87 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -179474,7 +179997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 863.092 30.988 90)
+			(at 863.092 24.638 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -179484,7 +180007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 858.52 33.02 0)
+			(at 858.52 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -179495,7 +180018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 858.52 33.02 0)
+			(at 858.52 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -179506,7 +180029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 858.52 33.02 0)
+			(at 858.52 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -185001,6 +185524,85 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 963.93 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab380821-eddd-4b62-b677-3b1e5fc067f1")
+		(property "Reference" "C546"
+			(at 962.152 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 970.28 23.876 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 963.93 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 963.93 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 963.93 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7029dfd-4785-49a6-bac0-e29ab6001853")
+		)
+		(pin "2"
+			(uuid "86c82cd4-4967-4abb-9db3-cefe3ed7b310")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "C546")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 737.87 514.35 90)
 		(unit 1)
 		(body_style 1)
@@ -186139,7 +186741,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 854.71 39.37 90)
+		(at 854.71 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -186149,7 +186751,7 @@
 		(dnp no)
 		(uuid "ad08db39-d29a-44fd-b34b-dd5ccbaed964")
 		(property "Reference" "C415"
-			(at 852.424 36.83 90)
+			(at 852.424 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -186160,7 +186762,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 860.806 36.83 90)
+			(at 860.806 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -186171,7 +186773,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 854.71 39.37 0)
+			(at 854.71 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -186182,7 +186784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 854.71 39.37 0)
+			(at 854.71 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -186192,7 +186794,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 854.71 39.37 0)
+			(at 854.71 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -192993,6 +193595,124 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:SK6805-EC15")
+		(at 189.23 171.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b718bfe2-c58a-4342-a438-6d43bbcafcc8")
+		(property "Reference" "LED54"
+			(at 189.738 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC15"
+			(at 189.738 177.292 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.5-W1.5-BL"
+			(at 189.23 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2890035.pdf"
+			(at 189.23 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "OPSCO(欧思科)"
+			(at 189.23 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6805-EC15"
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2890035"
+			(at 189.23 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "974cc568-1612-4796-93da-63e7679fe4d5")
+		)
+		(pin "2"
+			(uuid "fdc3d509-07f8-4f6b-9c9d-a0e5508b05c6")
+		)
+		(pin "3"
+			(uuid "db891833-3419-48f6-9f03-136c5a62cc2c")
+		)
+		(pin "4"
+			(uuid "aac27828-7ca8-4859-9b5d-a2bd9b798744")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "LED54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 163.83 379.73 90)
 		(unit 1)
@@ -194359,6 +195079,83 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 156.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b920cffb-be09-4067-a656-b34b905ea6f2")
+		(property "Reference" "#PWR0548"
+			(at 288.29 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.814 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ca0fe05-12b9-40f3-ba54-3bf5bb76fef6")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR0548")
 					(unit 1)
 				)
 			)
@@ -198962,6 +199759,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 850.9 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bedb453a-142b-4e51-84dd-1392a16a7fc8")
+		(property "Reference" "#PWR01202"
+			(at 854.71 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 845.312 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 850.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 850.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 850.9 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44ea8725-8656-48b1-bd2c-919f6d5e11cc")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SK6805-EC15")
 		(at 422.91 473.71 0)
 		(unit 1)
@@ -199232,6 +200106,83 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "#PWR0739")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 858.52 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf54d940-54c3-4e05-9081-609c63bbff56")
+		(property "Reference" "#PWR01203"
+			(at 864.87 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 863.092 37.338 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 858.52 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 858.52 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 858.52 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "724a9d97-7161-48de-be74-814ce959902a")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01203")
 					(unit 1)
 				)
 			)
@@ -204950,6 +205901,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 283.21 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6e5a15b-c361-4aa8-8d0e-a69218cc9c0a")
+		(property "Reference" "#PWR0268"
+			(at 283.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 171.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c95e208f-aba7-4eaa-81b4-b6a1e07aacba")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SK6805-EC15")
 		(at 848.36 421.64 0)
 		(unit 1)
@@ -210057,6 +211085,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 960.12 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd51c77c-3f35-4afe-a749-db4de88bcbc2")
+		(property "Reference" "#PWR01204"
+			(at 963.93 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 954.532 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 960.12 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 960.12 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 960.12 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5f80148-63f0-4dc8-a7d6-273f62bf9cea")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SK6805-EC15")
 		(at 461.01 288.29 0)
 		(unit 1)
@@ -212117,6 +213222,87 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "C351")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 290.83 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cef7ad37-c50e-40de-8e73-e89cc4ac7132")
+		(property "Reference" "C26"
+			(at 291.084 161.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 291.592 166.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 291.7952 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 290.83 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d82edb33-44e2-442b-aa57-ea5e8213f7e3")
+		)
+		(pin "1"
+			(uuid "0ef37f9c-30ae-4a9d-b7fa-103f449ba59d")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -224180,6 +225366,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 283.21 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc0e21d3-710b-4179-b14b-8d214b1a02ba")
+		(property "Reference" "C25"
+			(at 283.21 161.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 283.464 166.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 284.1752 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 283.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9da54dc0-816d-420d-8adc-92d5eb486155")
+		)
+		(pin "1"
+			(uuid "d5bb2bc8-7fab-4363-bbf0-11bf5cb68de4")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 506.73 327.66 90)
 		(unit 1)
@@ -224411,6 +225678,83 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc85aebd-da8c-41cd-8ad3-36ccdcfd0220")
+		(property "Reference" "#PWR0293"
+			(at 288.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.814 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3432a96-652a-4a9a-8683-14126538a9ac")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR0293")
 					(unit 1)
 				)
 			)
@@ -224923,7 +226267,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 850.9 33.02 90)
+		(at 850.9 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -224933,7 +226277,7 @@
 		(dnp no)
 		(uuid "dce1d03c-9777-42d3-9e5a-3c7a238f4a2b")
 		(property "Reference" "#PWR0429"
-			(at 854.71 33.02 0)
+			(at 854.71 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -224944,7 +226288,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 845.058 32.004 90)
+			(at 845.058 25.654 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -224954,7 +226298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 850.9 33.02 0)
+			(at 850.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -224965,7 +226309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 850.9 33.02 0)
+			(at 850.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -224976,7 +226320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 850.9 33.02 0)
+			(at 850.9 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -233916,7 +235260,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 858.52 26.67 90)
+		(at 858.52 20.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -233926,7 +235270,7 @@
 		(dnp no)
 		(uuid "e91ae20c-8d9a-4272-9080-24cf5ac83ef1")
 		(property "Reference" "#PWR0431"
-			(at 864.87 26.67 0)
+			(at 864.87 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -233937,7 +235281,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 863.092 24.638 90)
+			(at 863.092 18.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -233947,7 +235291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 858.52 26.67 0)
+			(at 858.52 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -233958,7 +235302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 858.52 26.67 0)
+			(at 858.52 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -233969,7 +235313,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 858.52 26.67 0)
+			(at 858.52 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -236519,6 +237863,83 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "#PWR01189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec57dd06-918f-4e8a-ae99-5aeb10c91573")
+		(property "Reference" "#PWR01199"
+			(at 288.29 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.814 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b1dff23-8083-4c32-8ad0-fd994f3a93c6")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01199")
 					(unit 1)
 				)
 			)
@@ -239742,6 +241163,83 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "LED132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 960.12 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f14e7bdf-c541-49b5-b0aa-e2df0a5ad1bc")
+		(property "Reference" "#PWR01206"
+			(at 963.93 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 954.278 38.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 960.12 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 960.12 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 960.12 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "668adcd5-028b-4070-b067-38a21b0be592")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01206")
 					(unit 1)
 				)
 			)
@@ -244029,6 +245527,85 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "#PWR0975")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 963.93 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f71e5d27-773f-46de-9e75-c82138ba8c41")
+		(property "Reference" "C547"
+			(at 961.644 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 970.026 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 963.93 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 963.93 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 963.93 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b46e92fe-6389-4b72-9d64-ace0d057ad6a")
+		)
+		(pin "2"
+			(uuid "57382ca3-cc98-4a87-86d3-38656114643d")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "C547")
 					(unit 1)
 				)
 			)
@@ -249820,6 +251397,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 967.74 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe2f2f55-9584-4b1b-a7ec-01d510e3539b")
+		(property "Reference" "#PWR01209"
+			(at 974.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 972.312 37.338 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 967.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 967.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 967.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2c349e7-e625-4c93-81a8-b3fef5edebf3")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 322.58 52.07 90)
 		(unit 1)
@@ -249995,6 +251649,83 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "#PWR0852")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 967.74 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe7dbd80-3384-4cc8-a64c-d50e67873162")
+		(property "Reference" "#PWR01208"
+			(at 974.09 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 972.312 30.988 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 967.74 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 967.74 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 967.74 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3edbf7ad-1d7f-4c20-93f4-763c450d86f2")
+		)
+		(instances
+			(project "Atrium PCB"
+				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
+					(reference "#PWR01208")
 					(unit 1)
 				)
 			)
