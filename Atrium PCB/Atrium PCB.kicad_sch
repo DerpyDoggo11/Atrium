@@ -13549,6 +13549,16 @@
 	)
 	(wire
 		(pts
+			(xy 819.15 657.86) (xy 819.15 660.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216b0a81-a67f-4ee6-bc1a-980f89653154")
+	)
+	(wire
+		(pts
 			(xy 814.07 143.51) (xy 595.63 143.51)
 		)
 		(stroke
@@ -18849,16 +18859,6 @@
 	)
 	(wire
 		(pts
-			(xy 822.96 660.4) (xy 826.77 660.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f626991-ee6b-43a0-a392-06afe83512e2")
-	)
-	(wire
-		(pts
 			(xy 257.81 72.39) (xy 275.59 72.39)
 		)
 		(stroke
@@ -21209,7 +21209,7 @@
 	)
 	(wire
 		(pts
-			(xy 788.67 740.41) (xy 801.37 740.41)
+			(xy 788.67 740.41) (xy 817.88 740.41)
 		)
 		(stroke
 			(width 0)
@@ -24319,6 +24319,16 @@
 	)
 	(wire
 		(pts
+			(xy 819.15 660.4) (xy 826.77 660.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c3c708-5e0f-45ce-82ff-d7709575cfa7")
+	)
+	(wire
+		(pts
 			(xy 38.1 477.52) (xy 29.21 477.52)
 		)
 		(stroke
@@ -24706,6 +24716,16 @@
 			(type default)
 		)
 		(uuid "aa5fd94a-d84a-4024-9a1f-99caeb2a2901")
+	)
+	(wire
+		(pts
+			(xy 817.88 742.95) (xy 825.5 742.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa610f8f-6e37-48c0-a611-228a08437858")
 	)
 	(wire
 		(pts
@@ -25556,6 +25576,16 @@
 			(type default)
 		)
 		(uuid "b395042b-0666-4e15-81b8-b7445466515f")
+	)
+	(wire
+		(pts
+			(xy 817.88 740.41) (xy 817.88 742.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b82e3d-4e87-4aac-a013-e676e178cc55")
 	)
 	(wire
 		(pts
@@ -28869,7 +28899,7 @@
 	)
 	(wire
 		(pts
-			(xy 789.94 657.86) (xy 802.64 657.86)
+			(xy 789.94 657.86) (xy 819.15 657.86)
 		)
 		(stroke
 			(width 0)
@@ -30976,16 +31006,6 @@
 			(type default)
 		)
 		(uuid "fdc7f7a5-8b00-4b51-995a-bc58dbd3a95c")
-	)
-	(wire
-		(pts
-			(xy 821.69 742.95) (xy 825.5 742.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdca96c0-2af9-4fa8-a4b7-fc1dcc8c6c26")
 	)
 	(wire
 		(pts
@@ -36411,6 +36431,28 @@
 			)
 		)
 	)
+	(global_label "SD_CD"
+		(shape input)
+		(at 187.96 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4045a77e-4dad-454c-af4b-b1a2adf809e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "+5V_LED"
 		(shape input)
 		(at 448.31 421.64 180)
@@ -41233,7 +41275,7 @@
 	)
 	(global_label "LED_DATA"
 		(shape input)
-		(at 187.96 100.33 0)
+		(at 187.96 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41242,7 +41284,7 @@
 		)
 		(uuid "7bf1a190-b340-46b7-a302-9ec60627e2a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 100.33 0)
+			(at 187.96 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -99135,87 +99177,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 600.71 646.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3947fc74-1e7c-45c4-8bff-0a57befb9063")
-		(property "Reference" "C532"
-			(at 603.25 641.604 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 597.916 639.572 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 604.52 645.4648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 600.71 646.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 600.71 646.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "029f7f70-e7e7-4faa-80f9-dea80cb1778b")
-		)
-		(pin "2"
-			(uuid "4f6d7762-5ec5-42e9-8622-391e16f9aaca")
-		)
-		(instances
-			(project "Atrium PCB"
-				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
-					(reference "C532")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 875.03 81.28 0)
 		(unit 1)
@@ -101481,124 +101442,6 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "LED368")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:SK6805-EC15")
-		(at 812.8 659.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3d29cda8-003c-4a73-b084-7d729387469a")
-		(property "Reference" "LED465"
-			(at 812.292 651.256 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC15"
-			(at 812.292 653.288 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.5-W1.5-BL"
-			(at 812.8 668.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2890035.pdf"
-			(at 812.8 670.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 812.8 659.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "OPSCO(欧思科)"
-			(at 812.8 673.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SK6805-EC15"
-			(at 812.8 675.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2890035"
-			(at 812.8 678.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8246c486-da46-450c-be03-b3b1a8ebb2b6")
-		)
-		(pin "2"
-			(uuid "a921aaf5-d6a3-48bf-88ef-24e22d610e6e")
-		)
-		(pin "3"
-			(uuid "86ea0043-41e8-413a-8dd6-777cc781ee63")
-		)
-		(pin "4"
-			(uuid "36ac86f0-2f0b-4a7b-9c56-43c9abf53cf4")
-		)
-		(instances
-			(project "Atrium PCB"
-				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
-					(reference "LED465")
 					(unit 1)
 				)
 			)
@@ -170404,87 +170247,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 560.07 781.05 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9807f055-9020-47a6-8a41-ce48d50029b0")
-		(property "Reference" "C513"
-			(at 562.61 776.224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 557.276 774.192 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 563.88 780.0848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 560.07 781.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 560.07 781.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "28b22357-91ac-400b-b615-fa6d15185d03")
-		)
-		(pin "2"
-			(uuid "7f03a3aa-583e-4d68-830d-d500f8692cbc")
-		)
-		(instances
-			(project "Atrium PCB"
-				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
-					(reference "C513")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:SK6805-EC15")
 		(at 214.63 289.56 0)
 		(unit 1)
@@ -178961,124 +178723,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:SK6805-EC15")
-		(at 670.56 581.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a1fce4e1-2290-4793-b14a-872e1978770d")
-		(property "Reference" "LED423"
-			(at 670.052 573.786 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC15"
-			(at 670.052 575.818 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.5-W1.5-BL"
-			(at 670.56 590.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2890035.pdf"
-			(at 670.56 593.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 670.56 581.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "OPSCO(欧思科)"
-			(at 670.56 595.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SK6805-EC15"
-			(at 670.56 598.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2890035"
-			(at 670.56 600.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8629eff2-8807-44f9-9d9e-9372dc8ab9be")
-		)
-		(pin "2"
-			(uuid "0e4ff57c-b54c-4f73-a02d-531d2173fbe2")
-		)
-		(pin "3"
-			(uuid "8b7381f9-46de-4c95-8b7d-63df59e024fe")
-		)
-		(pin "4"
-			(uuid "e9a1a69d-98b7-4f9d-a888-9bf19a60a6b0")
-		)
-		(instances
-			(project "Atrium PCB"
-				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
-					(reference "LED423")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 251.46 356.87 90)
 		(unit 1)
@@ -184453,87 +184097,6 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "LED261")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 640.08 646.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aa19fc0a-8484-4a52-a030-dd492d50aa75")
-		(property "Reference" "C544"
-			(at 642.62 641.604 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 637.286 639.572 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 643.89 645.4648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 640.08 646.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 640.08 646.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf2e7ea2-3efb-46ec-9d18-5aea9c108eae")
-		)
-		(pin "2"
-			(uuid "c31b6e67-de4b-4e0b-9031-e81f30ccaede")
-		)
-		(instances
-			(project "Atrium PCB"
-				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
-					(reference "C544")
 					(unit 1)
 				)
 			)
@@ -220043,124 +219606,6 @@
 			(project "Atrium PCB"
 				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
 					(reference "#PWR0758")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:SK6805-EC15")
-		(at 811.53 741.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d62cb0cf-5494-4672-990d-3869621d3f9d")
-		(property "Reference" "LED461"
-			(at 811.022 733.806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC15"
-			(at 811.022 735.838 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L1.5-W1.5-BL"
-			(at 811.53 750.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2890035.pdf"
-			(at 811.53 753.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 811.53 741.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "OPSCO(欧思科)"
-			(at 811.53 755.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SK6805-EC15"
-			(at 811.53 758.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2890035"
-			(at 811.53 760.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ff0aa38-fb1b-431f-a5a6-4cee6117aa60")
-		)
-		(pin "2"
-			(uuid "84277982-ce5c-42d8-9b52-485bdbe5a735")
-		)
-		(pin "3"
-			(uuid "37e7760f-31fa-43e4-a5ab-4df9796ae78e")
-		)
-		(pin "4"
-			(uuid "ab8d65a2-9987-427e-9414-9a0f553bec89")
-		)
-		(instances
-			(project "Atrium PCB"
-				(path "/ee0455fb-9ea5-4694-a839-3916064005e2"
-					(reference "LED461")
 					(unit 1)
 				)
 			)
