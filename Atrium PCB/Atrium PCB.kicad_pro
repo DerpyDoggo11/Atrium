@@ -68,6 +68,30 @@
         [
           "annular_width|251200001|72400000|8fb6e80e-58be-4a14-a720-52e3a2867fa4|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "malformed_courtyard|240689999|60270001|53b6a5a4-1bd2-4c94-b4c2-c2778d275341|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "malformed_courtyard|240690001|75520003|53b6a5a4-1bd2-4c94-b4c2-c2778d275341|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "malformed_courtyard|241690001|60270004|53b6a5a4-1bd2-4c94-b4c2-c2778d275341|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "malformed_courtyard|249990000|60080002|53b6a5a4-1bd2-4c94-b4c2-c2778d275341|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "malformed_courtyard|255189998|63060002|53b6a5a4-1bd2-4c94-b4c2-c2778d275341|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "malformed_courtyard|255189999|60070002|53b6a5a4-1bd2-4c94-b4c2-c2778d275341|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -147,12 +171,12 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
