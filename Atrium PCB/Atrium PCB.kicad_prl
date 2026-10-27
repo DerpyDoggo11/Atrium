@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_fffffff5",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffff55",
     "zone_display_mode": 0
   },
   "git": {
@@ -92,16 +92,16 @@
       9
     ],
     "col_widths": [
-      1176,
-      1116,
-      692,
-      480,
-      692,
-      692,
-      692,
-      504,
-      692,
-      692
+      294,
+      279,
+      173,
+      120,
+      173,
+      173,
+      173,
+      126,
+      173,
+      173
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
