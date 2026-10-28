@@ -30,9 +30,9 @@ The background display is the critical component of the keyboard, I imagine it l
 | 3 | M4 bolts and nuts | $12 | [here](https://www.aliexpress.us/item/3256807092650644.html?spm=a2g0o.productlist.main.1.675a7aa5twLngJ&algo_pvid=d4270fee-9c36-4b22-9c88-86ae13a58121&algo_exp_id=d4270fee-9c36-4b22-9c88-86ae13a58121-0&pdp_ext_f=%7B%22order%22%3A%229119%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%215.26%215.26%21%21%2135.03%2135.03%21%402101ca9517916959045395475e12b4%2112000040076085093%21sea%21US%217493938711%21X%211%210%21n_tag%3A-29919%3Bd%3Ad260408f%3Bm03_new_user%3A-29895&curPageLogUid=tqNMsgS5ewqS&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007278965396%7C_p_origin_prod%3A) 
 | 1 | PCBA for Atrium (comes with 2) | $400 | Upload PCB fabrication files to JLCPCB.   
 
-Total cost: **$502**
+Total cost: **$467**
 
-Cost per pen: **$251**
+Cost per pen: **$234**
 
 ----
 
